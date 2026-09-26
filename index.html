@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Advice App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+    <style>
+        button {
+            background-color: hsl(150, 100%, 66%);
+            border-radius: 50% 50%;
+            width: 50px;
+            height: 50px;
+            border: none;
+        }
+
+        body {
+            background-color: hsl(218, 23%, 16%);
+        }
+
+        p {
+            color: white;
+        }
+
+        div {
+            background-color: hsl(217, 19%, 24%);
+        }
+
+        .card-content {
+            background-color: hsl(217, 19%, 24%);
+            border-radius: 5px;
+        }
+
+        .seperater {
+            padding: 30px 30px 30px 30px;
+        }
+
+        .dice {
+            margin-left: 230px;
+            margin-right: 230px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="card-content">
+        </div>
+        <div class="seperater"><img src="images/pattern-divider-desktop.svg" alt="a seperater line"></div>
+    </div>
+    <form id="adviceForm">
+        <button type="submit" class="dice"><img src="images/icon-dice.svg" alt="icon of a dice"></button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
